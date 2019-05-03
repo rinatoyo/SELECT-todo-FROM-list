@@ -4,6 +4,12 @@
 
 Prepare SQL statements while testing them on a local running database.
 
+## Docker Setup
+
+Set your database name to be `tasks`.  
+Set your database username to be `tasker`.  
+Set your database password to be `taskMaster`.  
+
 ## To Do List Application
 
 Write these SQL statements in todo_app.sql, and run them against your newly created database:
