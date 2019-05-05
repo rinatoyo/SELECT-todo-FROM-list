@@ -4,17 +4,17 @@
 
 Prepare SQL statements while testing them on a local running database.
 
+## Docker Setup
+
+Set your database name to be `tasks`.  
+Set your database username to be `tasker`.  
+Set your database password to be `taskMaster`.  
+
 ## To Do List Application
-
-Write these SQL statements in db_init.sql:
-
-1. Write a query to drop a database named `todo_app` if it exists
-1. Write a query to delete a user named `michael` if it exists
-1. Write a query to create a user named `michael` with an encrypted password `stonebreaker`
-1. Write a query to create a database named `todo_app`
 
 Write these SQL statements in todo_app.sql, and run them against your newly created database:
 
+1. Write a query to drop the table `tasks` if it exists.
 1. Write a query to create a table named `tasks` using the **Initial columns** detailed below
 1. Define column `id` as the table's primary key
 1. Write queries to accomplish the following
